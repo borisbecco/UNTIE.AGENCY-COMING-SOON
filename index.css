@@ -23,11 +23,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .img-instagram {
-  width: 25px;
+  width: 26px;
   color: orange;
   position: absolute;
   bottom: 0;
@@ -38,10 +38,66 @@ html {
 .img-container {
   position: relative;
   /* border: 1px solid black; */
-  height: 65vh;
+  height: 64vh;
   width: 37vh;
 }
 
+@media only screen and (min-width: 1840px) and (max-width: 1884px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 75vh;
+    width: 43vh;
+  }
+}
+@media only screen and (min-width: 1783px) and (max-width: 1839px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 73vh;
+    width: 42vh;
+  }
+}
+@media only screen and (min-width: 1722px) and (max-width: 1782px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 71vh;
+    width: 41vh;
+  }
+}
+@media only screen and (min-width: 1621px) and (max-width: 1721px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 67vh;
+    width: 39vh;
+  }
+}
+@media only screen and (min-width: 1560px) and (max-width: 1620px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 65vh;
+    width: 37vh;
+  }
+}
+@media only screen and (min-width: 1510px) and (max-width: 1559px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 63vh;
+    width: 36vh;
+  }
+}
+@media only screen and (min-width: 1473px) and (max-width: 1510px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 61vh;
+    width: 35vh;
+  }
+}
 @media only screen and (min-width: 1343px) and (max-width: 1473px) {
 	.img-container {
     position: relative;
@@ -67,7 +123,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 374px) {
 	.img-container {
     position: relative;
     /* border: 1px solid black; */
