@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body,
+html {
+  background-image: url("cs-v3.gif");
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+}
+
+.img-instagram {
+  width: 25px;
+  position: relative;
+  margin-top: 740px;
+  margin-left: 1106px;
+  opacity: 0;
+}
