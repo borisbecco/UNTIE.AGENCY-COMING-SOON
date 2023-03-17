@@ -17,10 +17,62 @@ html {
   background-size: cover;
 }
 
+.main-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
 .img-instagram {
   width: 25px;
-  position: relative;
-  margin-top: 740px;
-  margin-left: 1106px;
+  color: orange;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   opacity: 0;
 }
+
+.img-container {
+  position: relative;
+  /* border: 1px solid black; */
+  height: 65vh;
+  width: 37vh;
+}
+
+@media only screen and (min-width: 1343px) and (max-width: 1473px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 58vh;
+    width: 34vh;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1342px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 56vh;
+    width: 34vh;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 999px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 56vh;
+    width: 34vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+	.img-container {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 56vh;
+    width: 34vh;
+  }
+}
+
