@@ -17,6 +17,10 @@ html {
   background-size: cover;
 }
 
+a {
+  cursor: default;
+}
+
 .main-container {
   min-height: 100vh;
   width: 100%;
